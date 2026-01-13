@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<opilased>
+    <opilane>
+        <nimi>Juku Kivimägi</nimi>
+        <isikukood>1256987</isikukood>
+        <eriala>Juuksur</eriala>
+        <elukoht>
+            <linn>Tartu</linn>
+            <maakond>Tartumaa</maakond>
+        </elukoht>
+    </opilane>
+    <opilane>
+        <nimi>Jaan Puusalu</nimi>
+        <isikukood>155258887</isikukood>
+        <eriala>Maaler</eriala>
+        <elukoht>
+            <linn>Valga</linn>
+            <maakond>Valgamaa</maakond>
+        </elukoht>
+    </opilane>
+    <opilane>
+        <nimi>Zeorg Temust</nimi>
+        <isikukood>551364296</isikukood>
+        <eriala>Klienditeenindaja</eriala>
+        <elukoht>
+            <linn>Tallinn</linn>
+            <maakond>Harjumaa</maakond>
+        </elukoht>
+    </opilane>
+    <opilane>
+        <nimi>Karu maru</nimi>
+        <isikukood>1</isikukood>
+        <eriala>Ehitaja</eriala>
+        <elukoht>
+            <linn>Tartu</linn>
+            <maakond>Tartumaa</maakond>
+        </elukoht>
+    </opilane>
+    <opilane>
+        <nimi>Martin Kuusalu</nimi>
+        <isikukood>457284342</isikukood>
+        <eriala>Kingasepp</eriala>
+        <elukoht>
+            <linn>Pärnu</linn>
+            <maakond>Pärnumaa</maakond>
+        </elukoht>
+    </opilane>
+</opilased>
