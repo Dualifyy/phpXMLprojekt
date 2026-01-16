@@ -4,8 +4,12 @@ $opilased=simplexml_load_file("opilase.xml");
 function erialaOtsing($paring){
     global $opilased;
     $tulemus=array();
-    foreach($opilased->opilane as $opilane){
-        if(substr(strtolower($opilane->eriala), 0, strlen($paring))==strtolower( $paring)){
+    foreach($opilased->opilane as $opilane) {
+        if (substr(strtolower($opilane->eriala), 0, strlen($paring)) == strtolower($paring)) {
+            array_push($tulemus, $opilane);
+        } else if (substr(strtolower($opilane->nimi), 0, strlen($paring)) == strtolower($paring)) {
+            array_push($tulemus, $opilane);
+        } else if (substr(strtolower($opilane->isikukood), 0, strlen($paring)) == strtolower($paring)) {
             array_push($tulemus, $opilane);
         }
     }
@@ -25,8 +29,8 @@ function erialaOtsing($paring){
 echo "1.Opilase nimi: ".$opilased->opilane[0]->nimi;
 ?>
 <form action="?" method="post">
-    <label for="otsing">Eriala: </label>
-    <input type="text" name="otsing" id="otsing">
+    <label for="otsing">Otsing: </label>
+    <input type="text" name="otsing" id="otsing" placeholder="Nimi | Eriala | Isikukood">
     <input type="submit" value="Otsi 🔍">
 </form>
 <?php
