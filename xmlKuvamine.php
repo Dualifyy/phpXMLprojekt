@@ -42,7 +42,13 @@ function lisaOpilane()
     }
 
     $xmlDoc->save("opilase.xml");
-    header("Refresh:0");
+
+    if (isset($_POST["submit"])) {
+        lisaOpilane();
+        header("Location: ". $_SERVER['PHP_SELF']);
+        echo "Õpilane lisatud!";
+    }
+
 
 }
 $opilased = simplexml_load_file("opilase.xml");
@@ -137,11 +143,5 @@ $opilased = simplexml_load_file("opilase.xml");
         <td></td>
     </tr>
 </form>
-<?php
-if (isset($_POST["submit"])) {
-    lisaOpilane();
-    echo "Õpilane lisatud!";
-}
-?>
 </body>
 </html>

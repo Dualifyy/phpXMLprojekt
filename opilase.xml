@@ -9,7 +9,9 @@
       <maakond>Tartumaa</maakond>
     </elukoht>
     <oppeained>Juustelõikus, Juustestiilid</oppeained>
-    <pilt><image></image></pilt>
+    <pilt>
+      <image/>
+    </pilt>
   </opilane>
   <opilane>
     <nimi>Jaan Puusalu</nimi>
@@ -73,5 +75,16 @@
     <isikukood>5090301337</isikukood>
     <eriala>Autokeresepp</eriala>
     <oppeained>Keretööd, Matemaatika</oppeained>
+  </opilane>
+  <opilane>
+    <elukoht>
+      <linn>ämber</linn>
+      <maakond>ämber</maakond>
+    </elukoht>
+    <nimi>kala mari</nimi>
+    <isikukood>4</isikukood>
+    <eriala>kokk</eriala>
+    <oppeained>Keretööd, Matemaatika</oppeained>
+    <pilt/>
   </opilane>
 </opilased>
